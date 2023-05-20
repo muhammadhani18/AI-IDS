@@ -165,7 +165,7 @@ const BarGraph = () => {
       <h1 className="mb-4" style={{ color: 'white' }}>
         
       </h1>
-      <div className="w-50">
+      <div className="w-100">
         <canvas id="barGraphCanvas" />
       </div>
     </div>

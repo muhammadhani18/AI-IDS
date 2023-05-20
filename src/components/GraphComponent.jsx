@@ -163,9 +163,9 @@ const GraphComponent = () => {
   return (
     <div className="container d-flex flex-column align-items-center mt-5">
       <h1 className="mb-4" style={{ color: 'white' }}>
-        Counts of IP
+      
       </h1>
-      <div className="w-50">
+      <div className="w-100">
         <canvas id="graphCanvas" />
       </div>
     </div>
