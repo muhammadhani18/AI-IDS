@@ -136,7 +136,7 @@ const PieChartComponent = () => {
           plugins: {
             legend: {
               position: 'bottom',
-              color: 'white'
+              color: 'black'
             },
           },
         },

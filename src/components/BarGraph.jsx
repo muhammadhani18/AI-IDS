@@ -135,23 +135,23 @@ const BarGraph = () => {
               title: {
                 display: true,
                 text: 'Timestamp',
-                color: 'white',
+                color: 'black',
               },
               ticks: {
-                color: 'white',
+                color: 'black',
               },
             },
             y: {
               title: {
                 display: true,
                 text: 'Number of IP Addresses',
-                color: 'white',
+                color: 'black',
               },
               ticks: {
-                color: 'white',
+                color: 'black',
               },
               grid: {
-                color: 'rgba(255, 255, 255, 0.2)',
+                color: 'rgba(0, 0, 0, 0.2)',
               },
             },
           },
@@ -161,14 +161,10 @@ const BarGraph = () => {
   }, [data]);
 
   return (
-    <div className="container d-flex flex-column align-items-center mt-5">
-      <h1 className="mb-4" style={{ color: 'white' }}>
-        
-      </h1>
-      <div className="w-100">
+      
+    
         <canvas id="barGraphCanvas" />
-      </div>
-    </div>
+    
   );
 };
 
