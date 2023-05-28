@@ -7,6 +7,7 @@ function App() {
     <div>
       <div style={{ display: 'flex' }}>
         <Navbar />
+        
         <Graphs/>
       </div>
     </div>
